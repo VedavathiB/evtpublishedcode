@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdvanceSearch_Attach_OverAllError_SubMsg" xml:space="preserve">
+    <value>参照値が見つかりません。 手動で検査してください。</value>
+    <comment>Target Error Msg2</comment>
+  </data>
+  <data name="AdvanceSearch_Attach_OverAll_Msg" xml:space="preserve">
+    <value>事前一致結果</value>
+    <comment>Over All Msg for Heading </comment>
+  </data>
+  <data name="AdvanceSearch_ByPass_LoadMsg" xml:space="preserve">
+    <value>メールの内容を確認するまで待機してください。</value>
+    <comment>AS Bypass load Msg </comment>
+  </data>
+  <data name="AdvanceSearch_NotSupportedFileError_Msg" xml:space="preserve">
+    <value>ファイルタイプはサポートされていません。 手動で検査してください！</value>
+    <comment>Target Error Not Supported Msg</comment>
+  </data>
+  <data name="AS_Attach_KeyUser" xml:space="preserve">
+    <value>ユーザーに対して実行された事前一致：</value>
+    <comment>key user details </comment>
+  </data>
+  <data name="AS_Attach_TargetFailed_Msg" xml:space="preserve">
+    <value>発見されません（失敗）</value>
+    <comment>Target Error Msg</comment>
+  </data>
+  <data name="AS_Attach_TargetParamTitle_Msg" xml:space="preserve">
+    <value>パラメータ値：</value>
+    <comment>Target Param value Title</comment>
+  </data>
+  <data name="AS_Attach_TargetSuccess_Msg" xml:space="preserve">
+    <value>発見されました（成功）</value>
+    <comment>Target SuccessFull Msg</comment>
+  </data>
+  <data name="AS_Attach_TargetTitle_Msg" xml:space="preserve">
+    <value>事前一致ターゲット値の検索結果：</value>
+    <comment>Target Result Title</comment>
+  </data>
+  <data name="AS_Attach_UnexpectedFailed_Msg" xml:space="preserve">
+    <value>発見されました（失敗）</value>
+    <comment>Unexpected Failed Msg</comment>
+  </data>
+  <data name="AS_Attach_UnexpectedHdr_Msg" xml:space="preserve">
+    <value>予期しない検索結果</value>
+    <comment>Unexpected SearchHdr</comment>
+  </data>
+  <data name="AS_Attach_UnexpectedNotPerformed_Msg" xml:space="preserve">
+    <value>実行されていません。 手動で検査してください！</value>
+    <comment>As inspect manully </comment>
+  </data>
+  <data name="AS_Attach_UnexpectedParamTitle_Msg" xml:space="preserve">
+    <value>最初の予期しない値：</value>
+    <comment>Unexpected Param value Title</comment>
+  </data>
+  <data name="AS_Attach_UnexpectedSuccess_Msg" xml:space="preserve">
+    <value>発見されません（成功）</value>
+    <comment>Unexpected Success Msg</comment>
+  </data>
+  <data name="AS_Attach_UnexpectedTitle_Msg" xml:space="preserve">
+    <value>事前一致の予期しない値の検索結果：</value>
+    <comment>Unexpected Result Title</comment>
+  </data>
+  <data name="AS_HiddenColumn" xml:space="preserve">
+    <value>非表示の列が発見されました。 手動で検査してください！</value>
+    <comment>Warning Message For Hidden column</comment>
+  </data>
+  <data name="AS_HiddenRow" xml:space="preserve">
+    <value>非表示の行が発見されました。 手動で検査してください！</value>
+    <comment>Warning Message For Hidden row</comment>
+  </data>
+  <data name="AS_HiddenRowColumn" xml:space="preserve">
+    <value>非表示の行と列が発見されました。 手動で検査してください！</value>
+    <comment>Warning Message For Hidden row and column found</comment>
+  </data>
+  <data name="AS_HiddenSheet" xml:space="preserve">
+    <value>非表示のシートが発見されました。 手動で検査してください！</value>
+    <comment>Warning Message For Hidden sheet</comment>
+  </data>
+  <data name="AS_HiddenSheetColumn" xml:space="preserve">
+    <value>非表示のシートと列が発見されました。 手動で検査してください！</value>
+    <comment>Warning Message For Hidden sheet,row</comment>
+  </data>
+  <data name="AS_HiddenSheetRow" xml:space="preserve">
+    <value>非表示のシートと行が発見されました。 手動で検査してください！</value>
+    <comment>Warning Message For Hidden sheet,row</comment>
+  </data>
+  <data name="AS_HiddenSheetRowColumn" xml:space="preserve">
+    <value>非表示のシート、行、列が発見されました。 手動で検査してください！</value>
+    <comment>Warning Message For Hidden sheet,row and column</comment>
+  </data>
+  <data name="AS_Inspect_manually" xml:space="preserve">
+    <value>手動で検査する</value>
+  </data>
+  <data name="AS_lable_only_found" xml:space="preserve">
+    <value>ラベルのみが見つかりました</value>
+  </data>
+  <data name="AS_Minimum_Target_Occurrence" xml:space="preserve">
+    <value>最小ターゲットオカレンスが見つかりません</value>
+    <comment>Alert Minimum Target Occurrence not found</comment>
+  </data>
+  <data name="AS_Recipient_BlacklistedDomainValidation_Msg" xml:space="preserve">
+    <value>事前一致：受信者でブラックリストに登録されたドメインが発見されました</value>
+    <comment>Recipient Blacklisted Domain Validation Msg</comment>
+  </data>
+  <data name="AS_Recipient_MultiDomainValidation_Msg" xml:space="preserve">
+    <value>事前一致：受信者で複数のドメインが発見されました</value>
+    <comment>Recipient Multi domain Validation Msg</comment>
+  </data>
+  <data name="AS_Recipient_MultiRefValues_Msg" xml:space="preserve">
+    <value>Different reference values found for the recipients</value>
+    <comment>Error Msg for Different reference values found for the recipients</comment>
+  </data>
+  <data name="AS_Recipient_NotFoundInCatalog_Msg" xml:space="preserve">
+    <value>事前一致：受信者のメール/ドメインがカタログにありません</value>
+    <comment>Recipient Not Found In Catalog Validation Msg</comment>
+  </data>
+  <data name="AS_Recipient_Validation_Msg" xml:space="preserve">
+    <value>事前一致は実行されていません。 手動で検査してください！</value>
+    <comment>AS Recipient Error Msg</comment>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>別添</value>
+    <comment>Label for Attachment Keyword</comment>
+  </data>
+  <data name="AuthCode_MessageBox" xml:space="preserve">
+    <value>新しい認証コードは</value>
+    <comment>Label text for Message Box of Auth Code</comment>
+  </data>
+  <data name="AuthCode_MessageBox_1" xml:space="preserve">
+    <value>このコードは機密情報であるため、共有しないでください。 [OK]をクリックして、コードをクリップボードにコピーします。</value>
+    <comment>Label text for Message Box of Auth Code</comment>
+  </data>
+  <data name="AuthCode_MessageBox_2" xml:space="preserve">
+    <value>認証コードはすでに生成されています。このコードは機密情報であるため、共有しないでください。</value>
+    <comment>Warning text for Regeneration of Authorization Code</comment>
+  </data>
+  <data name="AuthCode_MessageBox_3" xml:space="preserve">
+    <value>このクライアントのスーパーバイザーは承認されていません。</value>
+    <comment>Label text for Message Box of Auth Code</comment>
+  </data>
+  <data name="AuthCode_MessageBox_4" xml:space="preserve">
+    <value>システム管理者に連絡してください。</value>
+    <comment>Label text for Message Box of Auth Code</comment>
+  </data>
+  <data name="AuthCode_MessageBox_5" xml:space="preserve">
+    <value>エラー：</value>
+    <comment>Label text for Message Box of Auth Code</comment>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>体</value>
+    <comment>Label for Body Keyword</comment>
+  </data>
+  <data name="Cross Domain Validation Email Addresses" xml:space="preserve">
+    <value>クロスドメイン検証の電子メールアドレス</value>
+    <comment>Word Search Message for Cross Domain Validation Email Addresses</comment>
+  </data>
+  <data name="Email Addresses" xml:space="preserve">
+    <value>メールアドレス</value>
+    <comment>Word Search Message for Email Address</comment>
+  </data>
+  <data name="Email_Body" xml:space="preserve">
+    <value>メール本文</value>
+    <comment>Label for Email Body</comment>
+  </data>
+  <data name="ErrorMessage_AttachmentSearch" xml:space="preserve">
+    <value>添付ファイル検索</value>
+    <comment>Error for Attachment Search</comment>
+  </data>
+  <data name="ErrorMessage_BodySearch" xml:space="preserve">
+    <value>ボディ検索</value>
+    <comment>Error for Body Search</comment>
+  </data>
+  <data name="ErrorMessage_CheckAttachmentsOwner" xml:space="preserve">
+    <value>ファイルの所有権が一致しません（会社のプロパティ）。</value>
+    <comment>Error for Check Attachment Owner</comment>
+  </data>
+  <data name="ErrorMessage_SubjectSearch" xml:space="preserve">
+    <value>主題検索</value>
+    <comment>Error Message For Subject Search</comment>
+  </data>
+  <data name="ErrorWith4EyeCheck_ProhibitedDomain" xml:space="preserve">
+    <value>ブラックリストドメイン。</value>
+    <comment>Error Message for Four Eye Check</comment>
+  </data>
+  <data name="ErrorWithFourEyeCheck_FileEncryption" xml:space="preserve">
+    <value>暗号化されていないファイル。暗号化してください。</value>
+    <comment>Four Eye Check For Unencrypted File</comment>
+  </data>
+  <data name="ErrorWithFourEyeCheck_MultipleDomain" xml:space="preserve">
+    <value>ドメインが、受信者フィールドで許可されている最大ドメインを超えています。</value>
+    <comment>Error Message for Multiple Domain Four Eye Check</comment>
+  </data>
+  <data name="ErrorWithFourEyeCheck_RestrictedFileType" xml:space="preserve">
+    <value>制限されたファイルタイプ。添付ファイルを削除してください。</value>
+    <comment>Four Eye Check For Restriced File Type</comment>
+  </data>
+  <data name="Error_AttachmentNameFormat" xml:space="preserve">
+    <value>添付ファイル名が標準形式ではありません。形式は次のとおりです。</value>
+    <comment>Error message for Attachment File Format</comment>
+  </data>
+  <data name="Error_DomainIsInvalid" xml:space="preserve">
+    <value>ブラックリストドメイン。</value>
+    <comment>Error Message for Invalid Domain</comment>
+  </data>
+  <data name="Error_FileCncryption" xml:space="preserve">
+    <value>暗号化されていないファイル。暗号化してください。</value>
+    <comment>Error message for Unencrypted File</comment>
+  </data>
+  <data name="Error_FileExtensionNotSupported" xml:space="preserve">
+    <value>暗号化チェックではファイル拡張子はサポートされていません。</value>
+    <comment>Error Message forFile Extension Not Supported</comment>
+  </data>
+  <data name="Error_FromDomainIsInvalid" xml:space="preserve">
+    <value>ドメインからは無効です。</value>
+    <comment>Error Message For Invalid From Domain</comment>
+  </data>
+  <data name="Error_MultipleDomain" xml:space="preserve">
+    <value>複数の受信者ドメインは許可されていません（に / CC）。</value>
+    <comment>Error message for Multiple Domains</comment>
+  </data>
+  <data name="Error_MultipleDomainBCC" xml:space="preserve">
+    <value>複数の受信者ドメインは許可されていません（に / CC / BCC）。</value>
+    <comment>Error message for Multiple Domains for BCC</comment>
+  </data>
+  <data name="Error_ProhibitedDomain" xml:space="preserve">
+    <value>ブラックリストドメイン。</value>
+    <comment>Error Message for Prohibited Domain</comment>
+  </data>
+  <data name="Error_RestrictedFileTypeError" xml:space="preserve">
+    <value>制限されたファイルタイプ。添付ファイルを削除してください。</value>
+    <comment>Error message for Restricted File Type</comment>
+  </data>
+  <data name="FourEyeCheckMessage_AttachmentSearch" xml:space="preserve">
+    <value>添付ファイル検索</value>
+    <comment>Four Eye Check For Attachment Search</comment>
+  </data>
+  <data name="FourEyeCheckMessage_BodySearch" xml:space="preserve">
+    <value>ボディ検索</value>
+    <comment>Four Eye Check Body Search</comment>
+  </data>
+  <data name="FourEyeCheckMessage_SubjectSearch" xml:space="preserve">
+    <value>主題検索</value>
+    <comment>Four Eye Check For Subject Search</comment>
+  </data>
+  <data name="IsHiddenCol" xml:space="preserve">
+    <value>隠し列が見つかりました。 手動で検査してください！</value>
+  </data>
+  <data name="IsHiddenColRow" xml:space="preserve">
+    <value>非表示/フィルタリングされた行と列が見つかりました。 手動で検査してください！</value>
+  </data>
+  <data name="IsHiddenRow" xml:space="preserve">
+    <value>非表示/フィルタリングされた行が見つかりました。 手動で検査してください！</value>
+  </data>
+  <data name="IsHiddenSheet" xml:space="preserve">
+    <value>隠しシートが見つかりました。 手動で検査してください！</value>
+  </data>
+  <data name="IsHiddenSheetCol" xml:space="preserve">
+    <value>隠しシートと列が見つかりました。 手動で検査してください！</value>
+  </data>
+  <data name="IsHiddenSheetRow" xml:space="preserve">
+    <value>非表示/フィルタリングされた行とシートが見つかりました。 手動で検査してください！</value>
+  </data>
+  <data name="IsHiddenSheetRowCol" xml:space="preserve">
+    <value>非表示/フィルタリングされた行、列、およびシートが見つかりました。 手動で検査してください！</value>
+  </data>
+  <data name="Label_AuthorizationCode" xml:space="preserve">
+    <value>認証コード：</value>
+    <comment>Label text for Auth Code</comment>
+  </data>
+  <data name="Label_BCC" xml:space="preserve">
+    <value>Bcc:</value>
+    <comment>Label for BCC in recipient section</comment>
+  </data>
+  <data name="Label_BodyHeader" xml:space="preserve">
+    <value>メール本文を確認</value>
+    <comment>Label for Body Section Header</comment>
+  </data>
+  <data name="Label_CC" xml:space="preserve">
+    <value>Cc:</value>
+    <comment>Label for CC in recipient section</comment>
+  </data>
+  <data name="Label_ConfirmRecipients" xml:space="preserve">
+    <value>受信者を確認</value>
+    <comment>Label for confirming Recipients</comment>
+  </data>
+  <data name="Label_ConfirmSenderRecipients" xml:space="preserve">
+    <value>送信者と受信者を確認する</value>
+    <comment>Label for confirming recipients and sender</comment>
+  </data>
+  <data name="Label_ContentHeader" xml:space="preserve">
+    <value>メールの件名と本文を確認</value>
+    <comment>Label for Content Section Header</comment>
+  </data>
+  <data name="Label_EmailBody" xml:space="preserve">
+    <value>メール本文</value>
+    <comment>Label for Email body</comment>
+  </data>
+  <data name="Label_Found" xml:space="preserve">
+    <value>見つかりました。</value>
+    <comment>Label Message fr found in search</comment>
+  </data>
+  <data name="Label_From" xml:space="preserve">
+    <value>から:</value>
+    <comment>Label for From in recipient section</comment>
+  </data>
+  <data name="Label_InvalidCode" xml:space="preserve">
+    <value>無効なコード</value>
+    <comment>Label For Invalid Code</comment>
+  </data>
+  <data name="Label_OccurrencesOf" xml:space="preserve">
+    <value>の発生</value>
+    <comment>Label message for Occurenec of Message in search</comment>
+  </data>
+  <data name="Label_OverrideMessage_1" xml:space="preserve">
+    <value>このメールにはデータが含まれています</value>
+    <comment>Messgae part 1 of override pop up</comment>
+  </data>
+  <data name="Label_OverrideMessage_2" xml:space="preserve">
+    <value>送信するには追加の承認が必要です。</value>
+    <comment>Messgae part 2 of override pop up</comment>
+  </data>
+  <data name="Label_SelectALL" xml:space="preserve">
+    <value>すべて選択</value>
+    <comment>Label for recipient Select ALL</comment>
+  </data>
+  <data name="Label_SubjectHeader" xml:space="preserve">
+    <value>メールの件名を確認</value>
+    <comment>Label for Subject Section Header</comment>
+  </data>
+  <data name="Label_TimeUnit" xml:space="preserve">
+    <value>秒</value>
+    <comment>Time unit to use in Review Timer PopUp</comment>
+  </data>
+  <data name="Label_To" xml:space="preserve">
+    <value>に:</value>
+    <comment>Label for To in recipient section</comment>
+  </data>
+  <data name="NonMicrosoftFileType" xml:space="preserve">
+    <value>ファイルの所有権は利用できません。慎重に検査してください。</value>
+    <comment>Warning for File Ownership</comment>
+  </data>
+  <data name="Numeric Strings" xml:space="preserve">
+    <value>数値文字列</value>
+    <comment>Word Search Message for Numeric Strings</comment>
+  </data>
+  <data name="Recipient" xml:space="preserve">
+    <value>受取人</value>
+    <comment>Label for Recipient Keyword</comment>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>件名</value>
+    <comment>Label for Subject Keyword</comment>
+  </data>
+  <data name="URL Search" xml:space="preserve">
+    <value>URL検索</value>
+    <comment>Word Search Message forURL Search</comment>
+  </data>
+  <data name="WarningLabel_SubjectNotAvailable" xml:space="preserve">
+    <value>件名を入力してください。</value>
+    <comment>Warning Message when subject is not available</comment>
+  </data>
+  <data name="WarningMessage" xml:space="preserve">
+    <value>配布リストを検証してください。</value>
+    <comment>Warning Message to verrify Distribution List</comment>
+  </data>
+  <data name="WarningMessage_AttachmentSearch" xml:space="preserve">
+    <value>添付ファイル検索</value>
+    <comment>Warning for Attachment Search</comment>
+  </data>
+  <data name="WarningMessage_BodySearch" xml:space="preserve">
+    <value>ボディ検索</value>
+    <comment>Warning for Body Search</comment>
+  </data>
+  <data name="WarningMessage_CheckAttachmentsOwner" xml:space="preserve">
+    <value>ファイルの所有権が一致しません（会社のプロパティ）。</value>
+    <comment>Warning for Check Attachment Owner</comment>
+  </data>
+  <data name="WarningMessage_EncryptedAttachment" xml:space="preserve">
+    <value>検証を実行できません。添付ファイルは暗号化されています</value>
+    <comment>Warning Message For Cannot perform validations , attachment is encrypted.</comment>
+  </data>
+  <data name="WarningMessage_MultipleErrors" xml:space="preserve">
+    <value>複数のメッセージ</value>
+    <comment>Warning Message for Multiple Errors</comment>
+  </data>
+  <data name="WarningMessage_RestrictedEmailMessage" xml:space="preserve">
+    <value>選択したメールには制限が適用されています。メールの特定の部分を表示できません。</value>
+    <comment>Warning Message For Restricted Email Message</comment>
+  </data>
+  <data name="WarningMessage_SubjectSearch" xml:space="preserve">
+    <value>主題検索</value>
+    <comment>Warning Message For Subject Search</comment>
+  </data>
+  <data name="WarningMessage_WordSearch" xml:space="preserve">
+    <value>単語検索</value>
+    <comment>Warning Message For Word Search</comment>
+  </data>
+  <data name="Warning_AttachmentNameFormat" xml:space="preserve">
+    <value>添付ファイル名が標準形式ではありません。形式は次のとおりです。</value>
+    <comment>Warning for Attachment name not in standard format</comment>
+  </data>
+  <data name="Warning_AttachmentRecipientDomainWarning" xml:space="preserve">
+    <value>添付ファイル名は別のクライアントドメイン（ "+" [CLIENTDOMAIN] "+"）に関連していますが、それを外部IDと共有しています</value>
+    <comment>Warning message for Attachement Recipient Domain Warning</comment>
+  </data>
+  <data name="Warning_AttachmentSection" xml:space="preserve">
+    <value>別添</value>
+    <comment>Warning Message for Attachment Section</comment>
+  </data>
+  <data name="Warning_BodySection" xml:space="preserve">
+    <value>体</value>
+    <comment>Warning Message for Body Section</comment>
+  </data>
+  <data name="Warning_CompanyPopUP" xml:space="preserve">
+    <value>2文字以上入力してください</value>
+    <comment>Warning for text entered in company Pop up</comment>
+  </data>
+  <data name="Warning_DistributionList" xml:space="preserve">
+    <value>配布リストを検証してください</value>
+    <comment>Warning Message For Distribution List</comment>
+  </data>
+  <data name="Warning_FileEncryption" xml:space="preserve">
+    <value>暗号化されていないファイル。</value>
+    <comment>Warning message for Unencrypted File</comment>
+  </data>
+  <data name="Warning_FileOwnerShipMissing" xml:space="preserve">
+    <value>ファイルの所有権がありません（会社のプロパティ）。</value>
+    <comment>Warning for ownership missing for file</comment>
+  </data>
+  <data name="Warning_InvalidFile" xml:space="preserve">
+    <value>クラウドアタッチメント、検証できません。</value>
+    <comment>Warning Message for Invalid File</comment>
+  </data>
+  <data name="Warning_MultipleDomain" xml:space="preserve">
+    <value>複数の受信者ドメインは許可されていません（To / CC）。</value>
+    <comment>Warning message for Multiple Domains</comment>
+  </data>
+  <data name="Warning_MultipleDomainBCC" xml:space="preserve">
+    <value>複数の受信者ドメインは許可されていません（To / CC / BCC）。</value>
+    <comment>Warning message for Multiple Domains for BCC</comment>
+  </data>
+  <data name="Warning_MultipleDomainPreviousEmail" xml:space="preserve">
+    <value>複数のメールドメインから受信者に送信しています</value>
+    <comment>Warning Message for Mutiple Domain Previous Mail</comment>
+  </data>
+  <data name="Warning_RecipientSection" xml:space="preserve">
+    <value>受取人</value>
+    <comment>Warning Message for Recipient Section</comment>
+  </data>
+  <data name="Warning_RestrictedFileType" xml:space="preserve">
+    <value>制限されたファイルタイプ。</value>
+    <comment>Warning message for Restricted File Type</comment>
+  </data>
+  <data name="Warning_SubjectSection" xml:space="preserve">
+    <value>件名</value>
+    <comment>Warning Message for Subject Section</comment>
+  </data>
+  <data name="Warning_ThresholdSizeCheck" xml:space="preserve">
+    <value>サイズが原因で検証されていません。慎重に検査してください。</value>
+    <comment>Warning for Threshhold Size</comment>
+  </data>
+</root>
