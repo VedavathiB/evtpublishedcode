@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Clients>
+  <Client>
+    <ID>1</ID>
+    <Name>HP</Name>
+    <ConfigPath>C:\code\EVTAPI\ACC.EVT.API\Configuration\Constants_HP.xml</ConfigPath>
+  </Client>
+  <Client>
+    <ID>2</ID>
+    <Name>Facebook</Name>
+    <ConfigPath>C:\code\EVTAPI\ACC.EVT.API\Configuration\Constants_Facebook.xml</ConfigPath>
+  </Client>
+</Clients>
